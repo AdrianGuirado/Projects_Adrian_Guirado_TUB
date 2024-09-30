@@ -1,0 +1,1 @@
+Similar to Excel but using the terminal and basic functions
