@@ -1,9 +1,5 @@
 package edu.upc.etsetb.arqsoft.domain.formula;
 
-/**
- *
- * @author Juan Parada
- */
 public class Token {
     public enum Type { // Check if some time is not here
         SUMA, PROMEDIO, MAX, MIN, CELL, RNG_CELL,

@@ -8,10 +8,7 @@ import edu.upc.etsetb.arqsoft.domain.formula.Operator;
 import edu.upc.etsetb.arqsoft.domain.function.Function;
 import java.util.Stack;
 
-/**
- *
- * @author Juan Parada
- */
+
 public class PostfixEvaluator implements PostfixVisitor{
     
     private Stack<Number> stack;

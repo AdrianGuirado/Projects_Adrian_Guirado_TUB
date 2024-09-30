@@ -20,10 +20,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Stack;
 
-/**
- *
- * @author Juan Parada
- */
+
 public class FormulaGenerator {
     
     public FormulaGenerator() {

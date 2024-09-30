@@ -7,10 +7,6 @@ import edu.upc.etsetb.arqsoft.exceptions.TokenNotMatchedException;
 import java.util.regex.Pattern;
 import java.util.regex.Matcher;
 
-/**
- *
- * @author Juan Parada
- */
 public class Tokenizer {
     private class TokenInfo {
         public final Pattern regex;
@@ -71,7 +67,7 @@ public class Tokenizer {
                     else {
                         copy = copy.replaceFirst(token, "");
                     }
-                    break; // I hate it.                    
+                    break;                 
                 }
             }
             if (match == false) {

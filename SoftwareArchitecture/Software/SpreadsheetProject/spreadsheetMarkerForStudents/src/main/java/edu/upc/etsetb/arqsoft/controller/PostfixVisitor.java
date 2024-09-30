@@ -6,10 +6,7 @@ import edu.upc.etsetb.arqsoft.domain.formula.OperandNumber;
 import edu.upc.etsetb.arqsoft.domain.formula.Operator;
 import edu.upc.etsetb.arqsoft.domain.function.Function;
 
-/**
- *
- * @author Juan Parada
- */
+
 public interface PostfixVisitor {
     public void visitOperator (Operator op) throws ZeroDivisionException;
     public void visitOperandNumber(OperandNumber oNumb);

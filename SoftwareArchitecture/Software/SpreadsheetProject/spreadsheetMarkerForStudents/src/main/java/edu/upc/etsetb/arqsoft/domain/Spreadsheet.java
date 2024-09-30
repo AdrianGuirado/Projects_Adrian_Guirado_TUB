@@ -47,7 +47,6 @@ public class Spreadsheet {
 
     public void setEmptyCell (Cell cell) {
         emptyCells.put(cell.getKey(), cell);
-        //System.out.println("Adding to empty cells: " + cell);
     }
     
     public void deleteEmptyCell (Cell cell) {

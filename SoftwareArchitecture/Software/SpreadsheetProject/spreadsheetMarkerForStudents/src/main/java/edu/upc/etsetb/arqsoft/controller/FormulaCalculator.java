@@ -14,10 +14,6 @@ import edu.upc.etsetb.arqsoft.exceptions.ZeroDivisionException;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-/**
- *
- * @author Juan Parada
- */
 public class FormulaCalculator {
 
     public void recalculateCells (Cell Currentcell) throws CircularDependenciesException, ZeroDivisionException, BadPostfixerImplementationException {

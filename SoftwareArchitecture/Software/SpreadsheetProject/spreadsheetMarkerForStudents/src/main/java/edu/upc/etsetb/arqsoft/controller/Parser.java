@@ -6,10 +6,6 @@ import java.util.Stack;
 import edu.upc.etsetb.arqsoft.domain.formula.Token;
 import edu.upc.etsetb.arqsoft.exceptions.BadFormulaException;
 
-/**
- *
- * @author Juan Parada
- */
 public class Parser {
            
     public Parser(){}

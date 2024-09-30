@@ -59,18 +59,13 @@ public class Cell extends Operand implements Argument{
     public List<Number> getValue() {
         String cnt = content.getContentValue();
         List<Number> num = new ArrayList<>();
-        if (!cnt.contains("[a-zA-Z]+") && cnt.length()>0) {//Not working, i think
-            //IS A NUMBER, ALL GOOD
-            if (cnt.contains(".")) { //It's double
+        if (!cnt.contains("[a-zA-Z]+") && cnt.length()>0) {
+            if (cnt.contains(".")) {
                 num.add(Double.valueOf(cnt));
             }
-            else { //It's integer
+            else {
                 num.add(Integer.valueOf(cnt));
             }
-        }
-        else {
-            //Problems, per now return empty list
-            //TODO
         }
 
         return num;

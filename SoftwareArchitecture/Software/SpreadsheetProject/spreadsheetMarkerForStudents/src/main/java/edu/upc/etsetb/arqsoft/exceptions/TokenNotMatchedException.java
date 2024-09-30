@@ -4,10 +4,6 @@
  */
 package edu.upc.etsetb.arqsoft.exceptions;
 
-/**
- *
- * @author Juan Parada
- */
 public class TokenNotMatchedException extends Exception{
     private String info;
     
