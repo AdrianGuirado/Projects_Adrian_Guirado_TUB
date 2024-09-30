@@ -86,9 +86,6 @@ typedef enum{
 	S_PHY_2MPHY = 96
 }VSPconfig_t;
 
-
-
-
 typedef enum {
     BROADCAST_CAPABLE_CH = 1,  // Sccd descriptor must be present
     READABLE_BY_CLIENT_CH = 2,      // Can be read by the client
